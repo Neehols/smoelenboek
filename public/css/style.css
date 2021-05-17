@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Helvetica&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Helvetica', sans-serif;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+main {
+    margin-top: 30px;
+    margin-left: 22%;
+    margin-right: 30px;
+    width: 80%;
+}
+
+h1 {
+    color: #385A87;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input {
+    background-color: none;
+    border: none;
+    padding: 3px;
+}
+
+header {
+    position: fixed;
+    width: 20%;
+    height: 100vh;
+    background-color: #153661;
+}
+
+.logo-home {
+    width: 100%;
+}
+
+.logo-home img {
+    margin: 0 auto;
+    width: 20vw;
+}
+
+.nav-header {
+    margin-top: 50px;
+}
+
+.nav-item-container {
+    list-style-type: none;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-item > a, .logout_button {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    font-weight: 400;
+    padding: 0;
+    background: none;
+}
+
+.nav-item > a:hover, .logout_button:hover {
+    background-color: transparent;
+    color: #6DA6AF
+}
+
+.form {
+    width: 30%;
+    border-radius: 25px;
+    margin-top: 50px !important;
+    margin: 0 auto;
+    padding: 3%;
+    background-color: #385A87;
+}
+
+.form > input{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: white;
+}
+
+.white {
+    color: white;
+    margin-bottom: 5px;
+}
+
+button {
+    font-weight: 700;
+    padding: 5%;
+    margin-top: 30px;
+    border: none;
+    background-color: #385A87;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #6DA6AF;
+ }
+
+.overview_btn {
+    background-color: none;
+    margin: 0;
+}
+
+.overview_btn:hover{
+    background-color: #385A87;
+}
+
+.overview_btn img{
+    width: 30px;
+    height: 30px;
+}
+
+.list {
+    width: 100%;
+    display: block;
+}
+
+.list_item {
+    width: 30%;
+    margin-top: 20px;
+    padding: 10px;
+    display: block;
+}
+
+.dashboard_container {
+    width: 100%;
+}
+
+.employee_container {
+    display: inline-block;
+    flex-direction: row;
+    width: 10%;
+    margin-top: 50px;
+}
+
+.employee {
+    width: 100%;
+    background-color: #385A87;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.birthday_img {
+    display: flex;
+}
+
+.birthday_img img{
+    height: 50px;
+    margin: 0 auto;
+}
+
+.employee_img img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.employee_title {
+    font-size: 0.9em;
+}
+
+.employee_function {
+    font-size: 0.8em;
+}
+
+.employee_text {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+table {
+    background-color: #385A87;
+    padding: 3%;
+    border-radius: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+th {
+    color: white;
+    text-align: left;
+}
+
+td {
+    color: white;
+   
+    border-radius: 20px;
+}
+
+.delete {
+    background-color: #385A87;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.delete:hover {
+    background-color: #6DA6AF;
+}
+
+.toggleNav {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    padding: 2%;
+}
+
+.toggleNav img {
+    width: 50px;
+    height: 50px;
+}
+
+.toggleNav:hover {
+    background-color: white;
+}
+
+.toggleNavOn {
+    display: none;
+}
+
+.toggleNavOff {
+
+}
+
+
+
+
